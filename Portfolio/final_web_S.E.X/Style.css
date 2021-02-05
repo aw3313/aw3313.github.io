@@ -1,0 +1,348 @@
+body{
+padding:0;
+margin:0;
+
+
+}
+
+.wrapper{
+  width:80px;
+  height:80px;
+  background:#fff;
+  border-radius:50px;
+  transition: width 0.5s;
+  overflow: hidden;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+
+}
+
+.hero.animate{
+  width:650px;
+
+}
+
+.hero input{
+  position:absolute;
+  top:10px;
+  left:10px;
+  width: calc(100% -80px);
+  height:60px;
+  border:none;
+  outline:none;
+  font-size:35px;
+  padding:0 10px;
+  color:#262626;
+  letter-spacing:3px;
+  opacity: .5;
+
+}
+
+
+.hero {
+
+
+  height:600px;
+  background-image:linear-gradient(rgba(204, 12, 140, 0.5), rgba(0, 0, 0, 0.5)),url(pictures/zoe_kravitz.jpg);
+/*https://www.rollingstone.com/movies/movie-features/zoe-kravitz-naked-cover-story-746684/*/
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+
+
+  /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_hero_image*/
+
+}
+
+
+
+.title {
+
+  font-family: 'Nanum Myeongjo', serif;
+  /*https://fonts.google.com/?selection.family=Nanum+Myeongjo*/
+
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-300%);
+  color: white;
+  position:fixed;
+
+}
+
+.title_2 {
+
+    font-family: 'Nanum Myeongjo', serif;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,600%);
+    color: white;
+
+
+}
+
+
+
+.sun {
+    position:absolute;
+      top: 5px;
+      left: 700px;
+      height:10%;
+      width:10%;
+        position:fixed;
+
+}
+
+.knowledge {
+  width:600px;
+  height:800px;
+  position:relative;
+  cursor: pointer;
+  border: 10px solid white;
+}
+
+.knowledge:hover .post-s{
+  width: 600px;
+
+
+}
+.knowledge img {
+  display:block;
+  width: 600px;
+  height:800px;
+  border: 10px;
+
+}
+
+.post-s{
+  width: 0px;
+  height: 800px;
+  background: white;
+  position: absolute;
+  top:0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.7s ease;
+}
+
+.post-s p {
+  font-family: 'Nanum Myeongjo', serif;
+  color:black;
+  font-size:18px;
+  border: 6px solid white;
+  padding:10px 30px;
+
+}
+.introduction{
+  height:500px;
+  padding-left: 50
+}
+
+.img-fluid{
+  max-width:100%;
+  height:auto;
+}
+ .container-2{
+     border: 20px solid #FFFFFF;
+
+ }
+
+ .container-2 div {
+  /*border:1px #ccc solid;*/
+  padding:60px;
+
+
+}
+
+.container {
+  display:flex;
+
+
+}
+
+.container-2 h3 {
+  font-family: 'Love Ya Like A Sister', cursive;
+  color:white;
+  font-size: 30px;
+
+}
+
+h3:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.container-2 {
+  display:flex;
+  flex-basis:10%;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  font-family: 'Raleway', sans-serif;
+  background-image: url(pictures/legs_4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color:white;
+
+
+}
+
+
+.target{
+  flex:1;
+
+}
+
+.target_word{
+  font-size:80px;
+  font-family: 'Rock Salt', cursive;
+}
+
+.birth{
+  flex:1;
+  height: 500px;
+  background-image: url(pictures/birth_3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.body_image {
+  background-image: url(pictures/bd1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height:1600px;
+  font-size: 50px;
+    font-family: 'Rock Salt', cursive;
+    border: 20px solid #FFFFFF;
+}
+
+.eyes{
+  width:600px;
+  height:600px;
+  position:relative;
+  cursor: pointer;
+
+}
+.relationships {
+
+font-family: 'Anton', sans-serif;
+  height: 500px;
+  font-size: 100px;
+  padding-top: 10%;
+  padding-left: 10%
+
+
+}
+
+
+p{
+color:black;
+
+}
+
+p:hover {
+  text-decoration: underline;
+  text-decoration-color: black;
+
+}
+
+
+
+.contact div {
+    padding:60px;
+}
+
+.music {
+  position: absolute;
+  top: 100%;
+
+  right:0%;
+  transform: translate(-50%,-300%);
+
+}
+
+.contact{
+  display:flex;
+  background-color: black;
+  height:300px;
+
+  flex-basis:5%;
+  flex-wrap:wrap;
+  justify-content: space-between;
+
+
+  color:rgba(204, 12, 140);
+
+}
+
+
+.mental {
+  display:flex;
+  /*flex-basis:10%;
+  flex-wrap:wrap;*/
+  /*justify-content: space-between;*/
+
+
+}
+
+.gender_words p {
+  color:hotpink;
+  height:100px;
+  font-size: 100px;
+  padding:100px;
+}
+
+.mental_health_words p {
+  font-family: 'Mansalva', cursive;
+  color:black;
+  font-size: 100px;
+
+}
+.contact h2{
+
+  font-size: 28px;
+  color:pink;
+  font-family: 'Raleway', sans-serif;
+}
+
+.contact h3{
+
+  font-size: 28px;
+  color:pink;
+  font-family: 'Raleway', sans-serif;
+}
+
+.contact input {
+color:black;
+border-bottom: 1px solid black;
+
+
+}
+
+.contact h4 {
+  font-size: 20px;
+}
+
+
+.gender{
+  background-image: url(pictures/rivera_2.jpg);
+  height:500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 30px solid #FFFFFF;
+
+
+}

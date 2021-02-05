@@ -1,0 +1,26 @@
+body {
+  background-color: Indigo;
+  border; 50px;
+}
+
+.intersection_connect{
+  postion:relative;
+  width: 100%;
+  height: 100%;
+}
+
+.intersection_connect{
+  background-color: pink;
+  padding: 400px 400px;
+	margin: 105px;
+}
+
+#Hidden_feature {
+  background-color: pink;
+  padding:10px 10px;
+  color:white;
+}
+
+#Hidden_feature a:link{
+  font-size: 60px;
+}

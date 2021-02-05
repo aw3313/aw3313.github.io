@@ -1,0 +1,37 @@
+body
+{
+  background-color: black;
+
+}
+
+#word {
+
+color: hotpink;
+font-size: 3rem;
+font-weight: bold;
+
+}
+
+#word2 {
+
+color: green;
+font-size: 3rem;
+font-weight: bold;
+
+}
+
+#word3 {
+
+color: orange;
+font-size: 3rem;
+font-weight: bold;
+
+}
+
+#word4 {
+
+color: blue;
+font-size: 3rem;
+font-weight: bold;
+
+}

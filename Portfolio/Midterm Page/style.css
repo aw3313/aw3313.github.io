@@ -1,0 +1,33 @@
+
+
+
+
+body{
+  background-color: #011021;
+
+
+}
+
+.font-effect-neon {
+  color:pink;
+  font-family: Lato;
+  font-size: 90px;
+  background: #111;
+  text-align: center;
+
+}
+
+
+.middle_gif {
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  margin:10%;
+}
+
+.middle_gif:hover {
+  background: url(Pooh.gif);
+  width:100%;
+  height:100%;
+  margin:0%;
+}

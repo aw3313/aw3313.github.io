@@ -1,0 +1,142 @@
+/*https://www.youtube.com/watch?v=fEdlTW9lbOQ
+youtube video for css styling */
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.eot');
+  src: url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.woff') format('woff'), url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+
+
+.navbar-brand h1 {
+  font-size: 50px;
+  font-family: 'Cinzel', serif;
+  color: gray ;
+
+}
+
+.navbar-item p {
+  font-size: 15px;
+  font-family: 'Cinzel', serif;
+
+
+
+  color: gray ;
+
+}
+
+
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    height:100%;
+    align-items: stretch;
+}
+
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+    background-color: white;
+
+   transition: all 0.3s;
+}
+
+#sidebar .sidebar-header {
+    padding: 50px;
+    background: white;
+
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #F6BCE3;
+    background: white;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 30px;
+    display: block;
+    color: #F6BCE3  ;
+
+
+}
+
+#sidebar ul li a:hover {
+    color: gray;
+    background: white;
+
+}
+
+#sidebar ul ul a {
+    font-size: 20px !important;
+    padding-left: 30px !important;
+    background: white;
+    font-family: 'Julius Sans One', sans-serif;
+
+}
+
+
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+}
+
+
+
+.container {
+  display:flex;
+
+
+}
+
+.container_2 {
+  display:flex;
+
+
+}
+
+.lcd_words {
+  padding-left: 50px;
+  flex: 1;
+  height: 500px;
+  font-size: 50px;
+}
+
+.lcd_words h1 {
+  font-size: 50px;
+  font-family: 'Annie Use Your Telescope', cursive;
+  color:#f42578 ;
+}
+/*#f42578
+#FF14C0*/
+.lcd_words p {
+  font-size: 20px;
+  font-family: 'EB Garamond', serif;
+  color:gray;
+
+}

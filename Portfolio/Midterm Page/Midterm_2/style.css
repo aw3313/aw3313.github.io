@@ -1,0 +1,130 @@
+body {
+  background-color: black;
+
+
+  font-family: 'Orbitron', sans-serif;
+  font-size: 100px;
+  background: #111;
+  text-align: center;
+  color:pink;
+
+}
+
+.Page_Container {
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  grid-gap: 15px;
+
+}
+
+
+a {
+    color: white;
+}
+
+a:hover {
+  color: green;
+  font-size: 45px;
+}
+
+
+.word_test {
+
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  font-size:20px;
+
+
+
+
+}
+
+
+.word_test2 {
+
+  position: absolute;
+  top: 30%;
+  left: 3%;
+  font-size: 20px;
+
+
+}
+
+.word_test3 {
+
+  position: absolute;
+  top: 90%;
+  left: 43%;
+  font-size: 20px;
+
+}
+
+.word_test4 {
+
+  position: absolute;
+  top: 30%;
+  left: 75%;
+  font-size: 20px;
+
+}
+
+.word_test5 {
+
+  position: absolute;
+  top: 90%;
+  left: 75%;
+  font-size: 20px;
+
+
+}
+
+.word_test6 {
+
+  position: absolute;
+  top: 160%;
+  left: 3%;
+  font-size: 90px;
+ font-weight: bold;
+
+
+}
+
+
+.word_test7 {
+
+  position: absolute;
+  top: 160%;
+  left: 50%;
+ font-weight: bold;
+
+
+}
+
+.word_test8 {
+
+  position: absolute;
+  top: 90%;
+  left: 3%;
+  font-size: 20px;
+
+}
+
+
+.word_test9 {
+
+  position: absolute;
+  top: 160%;
+  left: 80%;
+  font-size: 100px;
+  color:pink;
+ font-weight: bold;
+
+
+
+
+}

@@ -1,0 +1,21 @@
+body {
+
+  background-color: black;
+  color: green;
+
+}
+
+
+p {
+
+  font-size: 25px;
+}
+
+h1 {
+  line-height: 0px;
+}
+
+h1 + h1 {
+line-height: 5px;
+
+}

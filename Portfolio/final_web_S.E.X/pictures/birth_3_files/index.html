@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!-- saved from url=(0067)https://s0.2mdn.net/9458863/1571059900288/300x600_101019/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="ad.size" content="width=300,height=600">
+	<title>Vylessi_banner-4</title>
+	<link media="all" rel="stylesheet" href="./main.css">
+	<link href="./css" rel="stylesheet">
+	<script type="text/javascript">var clickTag1 = "https://vyleesi.com";</script>
+	<script type="text/javascript" src="./jquery.min.js" defer=""></script>
+	<script src="./main.js" defer=""></script>
+<script type="text/javascript">
+    
+  (function() {
+    var MAX_URL_PARAM_LENGTH = 34;
+    var CLICK_X_URL_KEY = 'nx';
+    var CLICK_Y_URL_KEY = 'ny';
+    var CREATIVE_DIMENSIONS_KEY = 'dim';
+    var AD_URL_PARAM = '&adurl=';
+
+    var relegateNavigation = '';
+    var urlParamMap = {};
+
+    urlParamMap[CLICK_X_URL_KEY] = null;
+    urlParamMap[CLICK_Y_URL_KEY] = null;
+    urlParamMap[CREATIVE_DIMENSIONS_KEY] = null;
+
+    var handleClickTagMessage = function(e) {
+      try {
+        var eventData = JSON.parse(e.data);
+      } catch (err) {
+        return;
+      }
+      if (eventData.isInitClickTag) {
+        if (eventData.clickTags) {
+          for (var i = 0; i < eventData.clickTags.length; i++) {
+            var clkTag = eventData.clickTags[i];
+            window[clkTag.name] = clkTag.url;
+          }
+        } else if (eventData.clickTag) {
+          window.clickTag = eventData.clickTag;
+        }
+        relegateNavigation = eventData.relegateNavigation;
+      }
+    };
+
+    var storeClickCoordinates = function(e) {
+      urlParamMap[CLICK_X_URL_KEY] = Math.round(e.clientX);
+      urlParamMap[CLICK_Y_URL_KEY] = Math.round(e.clientY);
+    };
+
+    var getCreativeDimensions = function() {
+      return window.innerWidth + 'x' + window.innerHeight;
+    }
+
+    var getExitClickParams = function(e) {
+      urlParamMap[CREATIVE_DIMENSIONS_KEY] = getCreativeDimensions();
+
+      var exitParams = '';
+      for (var key in urlParamMap) {
+        exitParams += '&' + key + '=';
+        if (urlParamMap[key] !== null) {
+          exitParams += urlParamMap[key];
+        }
+      }
+      return exitParams;
+    }
+
+    var appendExitClickParams = function(url) {
+      var adUrlIndex = url.toLowerCase().indexOf(AD_URL_PARAM);
+      var paramsToBeAdded = getExitClickParams();
+      if (adUrlIndex > -1 && paramsToBeAdded.length <= MAX_URL_PARAM_LENGTH) {
+        url = url.substr(0, adUrlIndex) + paramsToBeAdded +
+          url.substr(adUrlIndex);
+      };
+      return url;
+    };
+
+    if (open.call) {
+      window.open = function(open) {
+        return function(url, name, features) {
+          url = appendExitClickParams(url);
+          if (relegateNavigation === 'parent') {
+            var message = {'clickTag': url, 'isPostClickTag': true};
+            parent.postMessage(JSON.stringify(message), '*');
+          } else {
+            var args = [url, name];
+            if (features) {
+              args.push(features);
+            }
+            open.apply(window, args);
+          }
+        };
+      }(window.open);
+    }
+
+    if (window.addEventListener) {
+      window.addEventListener(
+          'message', handleClickTagMessage, false);
+      window.addEventListener('mousedown', storeClickCoordinates, true);
+    } else {
+      window.attachEvent('onmessage', handleClickTagMessage);
+    }
+  })();
+    
+  </script></head>
+<body class="anim-go">
+<div id="wrapper"><a href="javascript:window.open(window.clickTag1)">
+	<div class="frame-1 pos-a">
+		<img id="frame-1" src="https://s0.2mdn.net/9458863/1571059900288/300x600_101019/index.html" alt="">
+		<div class="logo-with-text pos-a">
+			<div class="logo-white pos-a">
+				<img src="./logo-white.png" alt="">
+			</div>
+			<div class="text-1 pos-a">
+				<p>is now<br> available.</p>
+			</div>
+		</div>
+	</div>
+	</a><div class="frame-2 pos-a"><a href="javascript:window.open(window.clickTag1)">
+		<div class="bg pos-a">
+			<img src="./bg.jpg" alt="">
+		</div>
+		<div class="logo-black pos-a">
+			<img src="./Vyleesi_Logo.png" alt="">
+		</div>
+		<div class="text-2 pos-a">
+		</div>
+		<div class="box pos-a">
+			<img src="./The_Box.png" alt="">
+		</div>
+		</a><a id="ad" href="javascript:window.open(window.clickTag1)">
+			<span class="btn pos-a">LEARN MORE ABOUT VYLEESI</span>
+		</a>
+		<div class="text-3 pos-a">
+			<p>PP-VLS-US-00045e</p>
+		</div>
+	</div>
+    </div>
+
+</body></html>

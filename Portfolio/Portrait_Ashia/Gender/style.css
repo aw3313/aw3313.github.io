@@ -1,0 +1,21 @@
+body {
+  background-color: Aquamarine;
+
+}
+
+.intersection img:hover {
+  border-radius: 100px 300px;
+}
+
+.intersection {
+  background-color: pink;
+  padding: 70px;
+	margin: 115px;
+
+}
+
+.regular_gender {
+  margin: 115px;
+  padding: 50px;
+
+}

@@ -1,0 +1,28 @@
+body {
+  background: url("Unicorn.png");
+  /* https://yellow-maiden.tumblr.com/post/178629878071/unicorn-wallpapers-from-phonethemeshop */
+
+
+}
+nav {
+  background-color: Aqua;
+}
+
+nav li a:hover {
+  font-size: 50pt;
+  color: hotpink;
+  font-family:"Bradley Hand", cursive;
+  background-color: orange;
+
+}
+
+#Home_Header {
+  background: url(Home_Header_Photo.jpg);
+  height: 600px;
+  width: 940px;
+  text-align: center;
+  border: 100px  solid purple;
+  font-style: italic;
+  font-size: 40pt;
+  color:white;
+}
