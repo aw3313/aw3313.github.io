@@ -112,12 +112,10 @@ a[data-toggle="collapse"] {
   display:flex;
   flex: 1;
   height: 500px;
-  font-size: 50px;
-
 }
 
 .Week_1 h1 {
-  font-size: 100px;
+  font-size: 70px;
   font-family: 'Annie Use Your Telescope', cursive;
   color:#f42578 ;
 }
@@ -140,12 +138,11 @@ a[data-toggle="collapse"] {
   display:flex;
   flex: 1;
   height: 500px;
-  font-size: 50px;
   padding:50px;
 }
 
 .Week_2 h1 {
-  font-size: 100px;
+  font-size: 70px;
   font-family: 'Annie Use Your Telescope', cursive;
   color:#f42578 ;
 }
