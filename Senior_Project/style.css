@@ -141,6 +141,7 @@ a[data-toggle="collapse"] {
   flex: 1;
   height: 500px;
   font-size: 50px;
+  padding:50px;
 }
 
 .Week_2 h1 {
