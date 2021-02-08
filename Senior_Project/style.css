@@ -106,6 +106,10 @@ a[data-toggle="collapse"] {
     }
 }
 
+.container {
+  display:flex;
+}
+
 .Week_1 {
   flex: 1;
   height: 500px;
