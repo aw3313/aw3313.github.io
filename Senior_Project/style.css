@@ -108,27 +108,24 @@ a[data-toggle="collapse"] {
 
 .container {
   display:flex;
-}
-
-.Week_1 {
   flex: 1;
   height: 500px;
   font-size: 50px;
 }
 
-.Week_1 h1 {
+.container h1 {
   font-size: 100px;
   font-family: 'Annie Use Your Telescope', cursive;
   color:#f42578 ;
 }
 
-.Week_1 h2 {
+.conatiner h2 {
   font-size: 35px;
   font-family: 'EB Garamond', serif;
   color:#f42578 ;
 }
 
-.Week_1 p {
+.container p {
   font-size: 20px;
   font-family: 'EB Garamond', serif;
   color:gray;
