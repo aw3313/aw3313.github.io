@@ -105,3 +105,21 @@ a[data-toggle="collapse"] {
         margin-left: 0;
     }
 }
+
+.Week_2 {
+  display:flex;
+  flex: 1;
+  height: 500px;
+  font-size: 50px;
+}
+
+.Week_2 h1 {
+  font-size: 50px;
+  font-family: 'Annie Use Your Telescope', cursive;
+  color:#f42578 ;
+}
+
+.paragraph img {
+  height: 800px;
+  width: 500px;
+}
