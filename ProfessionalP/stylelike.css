@@ -109,7 +109,6 @@ a[data-toggle="collapse"] {
 .Week_2 {
   display:flex;
   height: 500px;
-  font-size: 50px;
 }
 
 .Week_2 h1 {
@@ -127,12 +126,10 @@ a[data-toggle="collapse"] {
   padding-left: 50px;
   flex: 1;
   height: 500px;
-  font-size: 50px;
 }
 
 .paragraph_words p {
-  font-size: 20px;
+  font-size: 10px;
   font-family: 'EB Garamond', serif;
   color:gray;
-
 }
