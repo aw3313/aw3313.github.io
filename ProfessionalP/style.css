@@ -119,7 +119,7 @@ a[data-toggle="collapse"] {
 }
 
 .paragraph img {
-  height: 800px;
+  height: 600px;
   width: 500px;
 }
 
@@ -130,7 +130,7 @@ a[data-toggle="collapse"] {
 }
 
 .paragraph_words p {
-  font-size: 10px;
+  font-size: 15px;
   font-family: 'EB Garamond', serif;
   color:gray;
 }
