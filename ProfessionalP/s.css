@@ -106,10 +106,12 @@ a[data-toggle="collapse"] {
     }
 }
 
+
 .Week_2 {
   display:flex;
+  flex: 1;
   height: 500px;
-    flex: 1;
+  font-size: 50px;
 }
 
 .Week_2 h1 {
@@ -117,24 +119,24 @@ a[data-toggle="collapse"] {
   font-family: 'Annie Use Your Telescope', cursive;
   color:#f42578 ;
 }
-.Week_2  p{
-  font-size: 15px;
+
+.Week_2 h2 {
+  font-size: 35px;
   font-family: 'EB Garamond', serif;
-  color:gray;
+  color:#f42578 ;
 }
 
-
-.Week_2.paragraph img {
-  height: 600px;
-  width: 500px;
-}
-
+.Week_2 p {
+  font-size: 20px;
+  font-family: 'EB Garamond', serif;
+  color:gray;}
 
 .Week_3 {
   display:flex;
+  flex: 1;
   height: 500px;
-  padding:200px;
-    flex: 1;
+  padding:50px;
+  font-size: 50px;
 }
 
 .Week_3 h1 {
@@ -143,8 +145,15 @@ a[data-toggle="collapse"] {
   color:#f42578 ;
 }
 
-.Week_3  p{
-  font-size: 15px;
+.Week_3 h2 {
+  font-size: 35px;
+  font-family: 'EB Garamond', serif;
+  color:#f42578 ;
+}
+
+.Week_3 p {
+  font-size: 20px;
   font-family: 'EB Garamond', serif;
   color:gray;
+
 }
