@@ -131,6 +131,11 @@ a[data-toggle="collapse"] {
   font-family: 'EB Garamond', serif;
   color:gray;}
 
+.paragraph img {
+    height: 600px;
+    width: 500px;
+  }
+
 .Week_3 {
   display:flex;
   flex: 1;
