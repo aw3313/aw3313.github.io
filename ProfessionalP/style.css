@@ -130,7 +130,13 @@ a[data-toggle="collapse"] {
   color:#f42578 ;
 }
 
-.Week_3.para p{
+.Week_3  p{
+  font-size: 15px;
+  font-family: 'EB Garamond', serif;
+  color:gray;
+}
+
+.Week_2  p{
   font-size: 15px;
   font-family: 'EB Garamond', serif;
   color:gray;
@@ -139,16 +145,4 @@ a[data-toggle="collapse"] {
 .paragraph img {
   height: 600px;
   width: 500px;
-}
-
-.paragraph_words {
-  padding-left: 50px;
-  flex: 1;
-  height: 500px;
-}
-
-.paragraph_words p {
-  font-size: 15px;
-  font-family: 'EB Garamond', serif;
-  color:gray;
 }
