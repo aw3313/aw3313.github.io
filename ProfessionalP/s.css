@@ -117,6 +117,18 @@ a[data-toggle="collapse"] {
   font-family: 'Annie Use Your Telescope', cursive;
   color:#f42578 ;
 }
+.Week_2  p{
+  font-size: 15px;
+  font-family: 'EB Garamond', serif;
+  color:gray;
+}
+
+
+.Week_2.paragraph img {
+  height: 600px;
+  width: 500px;
+}
+
 
 .Week_3 {
   display:flex;
@@ -135,15 +147,4 @@ a[data-toggle="collapse"] {
   font-size: 15px;
   font-family: 'EB Garamond', serif;
   color:gray;
-}
-
-.Week_2  p{
-  font-size: 15px;
-  font-family: 'EB Garamond', serif;
-  color:gray;
-}
-
-.paragraph img {
-  height: 600px;
-  width: 500px;
 }
