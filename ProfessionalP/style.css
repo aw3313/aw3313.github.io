@@ -118,6 +118,18 @@ a[data-toggle="collapse"] {
   color:#f42578 ;
 }
 
+.Week_3 {
+  display:flex;
+  height: 500px;
+    flex: 1;
+}
+
+.Week_3 h1 {
+  font-size: 50px;
+  font-family: 'Annie Use Your Telescope', cursive;
+  color:#f42578 ;
+}
+
 .paragraph img {
   height: 600px;
   width: 500px;
