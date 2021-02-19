@@ -130,6 +130,12 @@ a[data-toggle="collapse"] {
   color:#f42578 ;
 }
 
+.Week_3.para p{
+  font-size: 15px;
+  font-family: 'EB Garamond', serif;
+  color:gray;
+}
+
 .paragraph img {
   height: 600px;
   width: 500px;
