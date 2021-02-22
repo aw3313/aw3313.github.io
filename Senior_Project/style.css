@@ -193,3 +193,30 @@ a[data-toggle="collapse"] {
   color:gray;
 
 }
+
+.Week_4 {
+  display:flex;
+  flex: 1;
+  height: 500px;
+  padding:50px;
+  font-size: 50px;
+}
+
+.Week_4 h1 {
+  font-size: 50px;
+  font-family: 'Annie Use Your Telescope', cursive;
+  color:#f42578 ;
+}
+
+.Week_4 h2 {
+  font-size: 35px;
+  font-family: 'EB Garamond', serif;
+  color:#f42578 ;
+}
+
+.Week_4 p {
+  font-size: 20px;
+  font-family: 'EB Garamond', serif;
+  color:gray;
+
+}
