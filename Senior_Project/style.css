@@ -220,3 +220,61 @@ a[data-toggle="collapse"] {
   color:gray;
 
 }
+
+.Week_5 {
+  display:flex;
+  flex: 1;
+  height: 500px;
+  padding-top:400px;
+  font-size: 50px;
+}
+
+.Week_5 h1 {
+  font-size: 50px;
+  font-family: 'Annie Use Your Telescope', cursive;
+  color:#f42578 ;
+}
+
+.Week_5 h2 {
+  font-size: 35px;
+  font-family: 'EB Garamond', serif;
+  color:#f42578 ;
+}
+
+.Week_5 p {
+  font-size: 20px;
+  font-family: 'EB Garamond', serif;
+  color:gray;
+
+}
+.Week_6 {
+  display:flex;
+  flex: 1;
+  height: 500px;
+  padding-top:400px;
+  font-size: 50px;
+}
+
+.Week_6 h1 {
+  font-size: 50px;
+  font-family: 'Annie Use Your Telescope', cursive;
+  color:#f42578 ;
+}
+
+.Week_6 h2 {
+  font-size: 35px;
+  font-family: 'EB Garamond', serif;
+  color:#f42578 ;
+}
+
+.Week_6 p {
+  font-size: 20px;
+  font-family: 'EB Garamond', serif;
+  color:gray;
+
+}
+
+.future img {
+  height: 600px;
+  width: 500px;
+}
