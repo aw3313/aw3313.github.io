@@ -303,5 +303,18 @@ a[data-toggle="collapse"] {
   font-size: 20px;
   font-family: 'EB Garamond', serif;
   color:gray;
+}
 
+.Week_8 {
+  display:flex;
+  flex: 1;
+  height: 500px;
+  padding-top:500px;
+  font-size: 50px;
+}
+
+.Week_8 h2 {
+  font-size: 35px;
+  font-family: 'EB Garamond', serif;
+  color:#f42578 ;
 }
