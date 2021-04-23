@@ -1,0 +1,333 @@
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ */
+
+html {
+	font-family: sans-serif; /* 1 */
+	-ms-text-size-adjust: 100%; /* 2 */
+	-webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+	margin: 0;
+}
+
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+
+a {
+	background-color: transparent;
+}
+
+/**
+ * Improve readability of focused elements when they are also in an
+ * active/hover state.
+ */
+
+a:active,
+a:hover {
+	outline: 0;
+	text-decoration: none;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+
+b,
+strong {
+	font-weight: bold;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+	top: -.5em;
+}
+
+sub {
+	bottom: -.25em;
+}
+
+.ellipsis {
+	white-space: nowrap; /* 1 */
+	text-overflow: ellipsis; /* 2 */
+	overflow: hidden;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+* {
+	max-height: 1000000px;
+}
+
+body {
+	color: #333;
+	min-width: 320px;
+	background: #fff;
+	font: 16px/1.2 "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+	vertical-align: top;
+	display: inline-block;
+}
+
+p {
+	margin: 0 0 1em;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+#wrapper {
+	width: 300px;
+	height: 600px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	vertical-align: top;
+	display: inline-block;
+}
+
+#ad {
+	width: 129px;
+	height: 37px;
+	position: absolute;
+}
+
+@font-face {
+	font-family: "butlerextrabold";
+	src: url("../fonts/butler_extrabold.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.pos-a {
+	position: absolute;
+}
+
+.frame-1 {
+	width: 100%;
+	height: 100%;
+	top: 0;
+}
+
+.frame-1 .logo-with-text {
+	top: 211px;
+	left: 28px;
+	width: 250px;
+	height: 135px;
+	font-family: "Montserrat", sans-serif;
+	font-size: 29px;
+	color: #fff;
+	text-transform: uppercase;
+	line-height: 35px;
+	-webkit-animation: logo-with-text 15s ease-in-out forwards;
+	animation: logo-with-text 15s ease-in-out forwards;
+}
+
+.frame-1 .logo-with-text .logo-white {
+	width: 222px;
+}
+
+.frame-1 .logo-with-text .text-1 {
+	top: 62px;
+	left: 51px;
+}
+
+.frame-2 {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	-webkit-animation: frame-2 15s ease-in-out forwards;
+	animation: frame-2 15s ease-in-out forwards;
+}
+
+.frame-2 .logo-black {
+	width: 241px;
+	bottom: 84px;
+	left: 28px;
+	-webkit-animation: box 15s ease forwards;
+	animation: box 15s ease forwards;
+}
+
+.frame-2 .text-2 {
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 600;
+	font-size: 10px;
+	top: 255px;
+	left: 83px;
+	color: #000;
+	-webkit-animation: box 15s ease forwards;
+	animation: box 15s ease forwards;
+}
+
+.frame-2 .box {
+	top: -153px;
+	left: -1px;
+	-webkit-animation: box 15s ease forwards;
+	animation: box 15s ease forwards;
+}
+
+.frame-2 .btn {
+	background-color: #fff;
+	width: 213px;
+	height: 37px;
+	top: 307px;
+	left: 44px;
+	border-radius: 3px;
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 600;
+	font-size: 13px;
+	padding: 12px 0 0 17px;
+	letter-spacing: .7px;
+	-webkit-animation: box 15s ease forwards;
+	animation: box 15s ease forwards;
+}
+
+.frame-2 .btn:hover {
+	background-color: black;
+	color: #fff;
+}
+
+.frame-2 .text-3 {
+	left: 96px;
+	bottom: -5px;
+	font-size: 11.5px;
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 400;
+	letter-spacing: 1px;
+	-webkit-animation: box 15s ease forwards;
+	animation: box 15s ease forwards;
+}
+
+@-webkit-keyframes logo-with-text {
+	0%,
+	19% {
+		opacity: 0;
+	}
+
+	20%,
+	34.5% {
+		opacity: 1;
+	}
+
+	35.5%,
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes logo-with-text {
+	0%,
+	19% {
+		opacity: 0;
+	}
+
+	20%,
+	34.5% {
+		opacity: 1;
+	}
+
+	35.5%,
+	100% {
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes frame-2 {
+	0%,
+	64% {
+		opacity: 0;
+	}
+
+	64.5%,
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes frame-2 {
+	0%,
+	64% {
+		opacity: 0;
+	}
+
+	64.5%,
+	100% {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes box {
+	0%,
+	64% {
+		-webkit-transform: translate(0, 300px);
+		transform: translate(0, 300px);
+	}
+
+	66.5% {
+		-webkit-transform: translate(0, -50px);
+		transform: translate(0, -50px);
+	}
+
+	67.5%,
+	100% {
+		-webkit-transform: translate(0, 0px);
+		transform: translate(0, 0px);
+	}
+}
+
+@keyframes box {
+	0%,
+	64% {
+		-webkit-transform: translate(0, 300px);
+		transform: translate(0, 300px);
+	}
+
+	66.5% {
+		-webkit-transform: translate(0, -50px);
+		transform: translate(0, -50px);
+	}
+
+	67.5%,
+	100% {
+		-webkit-transform: translate(0, 0px);
+		transform: translate(0, 0px);
+	}
+}
+
