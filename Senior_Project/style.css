@@ -318,3 +318,23 @@ a[data-toggle="collapse"] {
   font-family: 'EB Garamond', serif;
   color:#f42578 ;
 }
+
+.Week_9 {
+  display:flex;
+  flex: 1;
+  height: 500px;
+  padding-top:900px;
+  font-size: 50px;
+}
+
+.Week_9 h2 {
+  font-size: 35px;
+  font-family: 'EB Garamond', serif;
+  color:#f42578 ;
+}
+
+.Week_9 p {
+  font-size: 20px;
+  font-family: 'EB Garamond', serif;
+  color:gray;
+}
