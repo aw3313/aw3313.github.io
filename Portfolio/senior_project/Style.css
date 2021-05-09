@@ -188,16 +188,6 @@ h3:hover {
   background-position: center;
 }
 
-.body_image {
-  background-image: url(pictures/bd1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height:1600px;
-  font-size: 50px;
-    font-family: 'Rock Salt', cursive;
-    border: 20px solid #FFFFFF;
-}
 
 .eyes{
   width:600px;
@@ -234,14 +224,6 @@ p:hover {
     padding:60px;
 }
 
-.music {
-  position: absolute;
-  top: 100%;
-
-  right:0%;
-  transform: translate(-50%,-300%);
-
-}
 
 .contact{
   display:flex;
@@ -268,12 +250,6 @@ p:hover {
 
 }
 
-.gender_words p {
-  color:hotpink;
-  height:100px;
-  font-size: 100px;
-  padding:100px;
-}
 
 .mental_health_words p {
   font-family: 'Mansalva', cursive;
@@ -304,16 +280,4 @@ border-bottom: 1px solid black;
 
 .contact h4 {
   font-size: 20px;
-}
-
-
-.gender{
-  background-image: url(pictures/rivera_2.jpg);
-  height:500px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  border: 30px solid #FFFFFF;
-
-
 }
