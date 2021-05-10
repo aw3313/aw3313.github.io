@@ -232,7 +232,7 @@ p:hover {
   justify-content: space-between;
 
 
-  color:rgba(204, 12, 140);
+  color:rgba(147, 249, 80);
 
 }
 
@@ -257,14 +257,14 @@ p:hover {
 .contact h2{
 
   font-size: 28px;
-  color:pink;
+  color:green;
   font-family: 'Raleway', sans-serif;
 }
 
 .contact h3{
 
   font-size: 28px;
-  color:pink;
+  color:green;
   font-family: 'Raleway', sans-serif;
 }
 
